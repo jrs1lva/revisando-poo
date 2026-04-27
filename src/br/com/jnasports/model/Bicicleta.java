@@ -1,4 +1,4 @@
-package com.br.jnasports.model;
+package br.com.jnasports.model;
 
 public class Bicicleta extends Produto {
 

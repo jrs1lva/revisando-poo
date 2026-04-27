@@ -1,4 +1,4 @@
-package com.br.jnasports.model;
+package br.com.jnasports.model;
 
 public abstract class Produto {
 	private String nome;
