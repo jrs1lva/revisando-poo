@@ -2,21 +2,20 @@ package br.com.jnasports.model;
 
 public abstract class Produto {
 	private String nome;
-	private double preco;
+	private double precoBase;
 	
 	public Produto(String nome, double preco) {
 		this.nome = nome;
-		this.preco = preco;
+		this.precoBase = preco;
 	}
 
 	public String getNome() {return nome;}
 
 	public void setNome(String nome) {this.nome = nome;}
 
-	public double getPreco() {return preco;}
+	public double getPrecoBase() {return precoBase;}
 
-	public void setPreco(double preco) {this.preco = preco;}
-	
+	public void setPrecoBase(double preco) {this.precoBase = preco;}
 	
 	public abstract double calcularDesconto();
 	
